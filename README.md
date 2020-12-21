@@ -44,31 +44,3 @@ optional arguments:
 ```
 $ python3 Download_assembly.py -t metagenome_name -i list_metagenomes.csv -d /path/to/dir
 ```
-
-# Instruction for Trees_builder.py
-
-Use Python for this script
-
-
-# Instruction Remove_gap.py
-
-This script is necessary to remove gaps in "fasta" file. You can get acquainted with the parameters passed to the script via the-h flag
-
-## Using -h flag
-
-```
-$ python3 Remove_gap.py -h
-usage: Remove_gap.py [-h] --input INPUT --output OUTPUT
-
-Remove gap in "fasta" file.
-
-optional arguments:
-  -h, --help            show this help message and exit
-  --input INPUT, -i INPUT
-                        Input file
-  --output OUTPUT, -o OUTPUT
-                        Output file
-```
-## Example
-```
-python3 Remove_gap.py -i input_file.fasta -o output_file.fasta
